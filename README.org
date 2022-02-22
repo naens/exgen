@@ -1,0 +1,11 @@
+#+TITLE: Ideas for problem generator
+
+* Linear algebra
+  * Determinant of a 2x2 (and 3x3) matrix
+  * Inverse of 2x2 matrices
+  * Span of a 2x2 (? or 3x3) matrix
+  * Matrix from span
+  * Find eigenvalues and eigenvectors
+  * Solve a quadratic equation
+
+* Geometry
