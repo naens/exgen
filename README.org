@@ -1,6 +1,35 @@
-#+TITLE: Ideas for problem generator
+#+TITLE: Geometry test generator
+* Goal
+  Generate realistic geometry tests for exercises that can be generated and, if
+  possible, also checked programmatically.
 
-* Linear algebra
+  The output can be either in form of a text document (org, pdf, text, ...) or
+  interactive, that is a quested is printed on and then checked.
+
+  A possible feature for tests in text format is to also generate a separate
+  solution sheet in order to check the answers.
+
+  In interactive mode, not only can the answer be checked, but also whether the
+  answer was given fast enough, and then rank it considering how long it took to
+  answer.
+
+  But these features are just ideas what this project might become.  For now it
+  is just a minimalistic exercise generator.
+
+* Application Overview
+  There are predefined types of questions which are parametrized with random
+  values with some constraints (such as being integer, or having a solution and
+  so on).
+
+  So the genaration of a test first chooses the kinds of questions and then
+  generates each questions (and the answers if asked or possible).
+
+  Each question can have an estimate of the time needed to find the answer and
+  thus the generation of the test can made such as to not be too long or too
+  short.
+
+** Ideas for problem generator
+*** Linear algebra
   * Determinant of a 2x2 (and 3x3) matrix
   * Inverse of 2x2 matrices
   * Span of a 2x2 (? or 3x3) matrix
@@ -8,4 +37,5 @@
   * Find eigenvalues and eigenvectors
   * Solve a quadratic equation
 
-* Geometry
+*** Geometry
+Nothing here yet
